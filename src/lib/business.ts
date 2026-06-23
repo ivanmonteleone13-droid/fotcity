@@ -17,6 +17,7 @@ export const business = {
   bookingUrl: "https://www.bokadirekt.se/places/fotcity-49551",
   bookingLabel: "Boka på Bokadirekt",
   websiteUrl: "https://www.fotcity.se" as string | null,
+  logoImage: null as string | null,
   heroImage: "/images/hero.jpg",
   aboutImage: "/images/gallery-2.jpg",
   facebookUrl: null as string | null,
@@ -77,7 +78,7 @@ export const business = {
       icon: "🦶",
       description: "Medicinsk fotvård hos Fotcity — noggrant utfört med premiumprodukter och personlig service.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 750,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -95,7 +96,7 @@ export const business = {
       icon: "💆",
       description: "Nagelsvamptest hos Fotcity — noggrant utfört med premiumprodukter och personlig service.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 500,
       note: "Kontakta oss för aktuella priser.",
     },
     {
